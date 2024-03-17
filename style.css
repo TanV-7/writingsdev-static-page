@@ -1,0 +1,57 @@
+body{
+background-color: #232830;
+color: white;
+font-family: "Poppins", sans-serif;
+}
+
+.outside{
+    margin: 30px 270px;
+}
+
+.item-wrapper{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.item{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    display: block;
+    width: 100px;
+    margin: 20px auto;
+}
+
+.Recursive{
+    font-family: "Recursive", sans-serif;
+    color:#FF7575;
+}
+
+.mid{
+    text-align: center;
+}
+
+.Poppins{
+    font-family: "Poppins", sans-serif;
+}
+
+.title-text{
+    display: block;
+    margin: 0px auto;
+}
+
+hr{
+    color:#4D4D4D;
+    background-color: #4D4D4D;
+    height: 2px;
+    border-width: 0;
+    margin-top: 60px;
+}
