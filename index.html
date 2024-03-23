@@ -1,33 +1,263 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link href="style.css" rel="stylesheet">
-        <script src="script.js"></script>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Recursive:slnt@-15&display=swap" rel="stylesheet">
-    </head>
+  <head>
+    <link href="style.css" rel="stylesheet" />
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Recursive:slnt@-15&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-    <body>
-        <div class="outside">
-            <div class="nav">
-                <h4>writings.dev</h4>
-                <div class="item-wrapper">
-                    <h4 class="item">categories</h4>
-                    <h4 class="item">articles</h4>
-                    <h4 class="item">about</h4>
-                </div>
-            </div>
-
-            <img class="logo" src="Logo.png">
-            <div class="mid">
-            <h1 class="Recursive">Writings for Developers</h1>
-            <h4 class="Poppins">Curated collection of articles for busy developers</h4>
+  <body>
+    <!-- margin top and side -->
+    <div class="outside">
+      <!-- navbar  -->
+      <div class="nav">
+        <h4 class="title Poppins">writings.dev</h4>
+        <!-- menu items -->
+        <div class="item-wrapper Poppins">
+          <h5 class="item">categories</h5>
+          <h5 class="item">articles</h5>
+          <h5 class="item">about</h5>
         </div>
-        
-        <hr>
-        
+      </div>
+
+      <!-- logo -->
+      <img class="logo" src="images/Logo.png" />
+      <!-- Text in middle -->
+      <div class="mid">
+        <h1 class="Recursive">Writings for Developers</h1>
+        <h4 class="Poppins title">
+          Curated collection of articles for busy developers
+        </h4>
+      </div>
     </div>
-    </body>
+    <!-- horizontal row(line) -->
+    <hr />
+
+    <!-- categories and icons -->
+    <div class="outside-1">
+      <div class="categories-icons-wrapper">
+        <!-- icons -->
+        <div class="icons">
+          <img class="item-1" src="images/Grid Icon.png" />
+          <img class="item-1" src="images/List Icon.png" />
+        </div>
+        <!-- categories -->
+        <div class="categories Recursive">
+          <h5 class="item-2">Javascript</h5>
+          <h5 class="item-2">DevOps</h5>
+          <h5 class="item-2">Cloud</h5>
+          <h5 class="item-2">Terraform</h5>
+          <h5 class="item-2">Architecture</h5>
+          <h5 class="item-2">Scalability</h5>
+          <h5 class="item-2">Explainers</h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="cards-container">
+      <!-- Cards row -->
+      <div class="card-row-wrapper">
+        <div class="card">
+          <img class="imgc center" src="images/image 1.png" />
+          <h4 class="card-title center Poppins">
+            Build continuous integration pipelines with GitHub Actions
+          </h4>
+          <h4 class="card-subtitle center Poppins">
+            GitHub actions provide a really powerful way to integrate continuous
+            integration and delivery into your applications.
+          </h4>
+          <div class="date-wrapper Poppins card-subtitle">
+            <h4 class="date">June 24, 2022</h4>
+            <img class="img-dot date" src="images/Ellipse 1.png" />
+            <h4 class="date">DevOps</h4>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="imgc center" src="images/image 4.png" />
+          <h4 class="card-title center Poppins">
+            Build continuous integration pipelines with GitHub Actions
+          </h4>
+          <h4 class="card-subtitle center Poppins">
+            GitHub actions provide a really powerful way to integrate continuous
+            integration and delivery into your applications.
+          </h4>
+          <div class="date-wrapper Poppins card-subtitle">
+            <h4 class="date">June 24, 2022</h4>
+            <img class="img-dot date" src="images/Ellipse 1.png" />
+            <h4 class="date">DevOps</h4>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="imgc center" src="images/image 7.png" />
+          <h4 class="card-title center Poppins">
+            Build continuous integration pipelines with GitHub Actions
+          </h4>
+          <h4 class="card-subtitle center Poppins">
+            GitHub actions provide a really powerful way to integrate continuous
+            integration and delivery into your applications.
+          </h4>
+          <div class="date-wrapper Poppins card-subtitle">
+            <h4 class="date">June 24, 2022</h4>
+            <img class="img-dot date" src="images/Ellipse 1.png" />
+            <h4 class="date">DevOps</h4>
+          </div>
+        </div>
+      </div>
+      <!-- row ends -->
+
+      <!-- Cards row -->
+      <div class="card-row-wrapper">
+        <div class="card">
+          <img class="imgc center" src="images/image 2.png" />
+          <h4 class="card-title center Poppins">
+            Python for the Absolute beginners
+          </h4>
+          <h4 class="card-subtitle center Poppins">
+            GitHub actions provide a really powerful way to integrate continuous
+            integration and delivery into your applications.
+          </h4>
+          <div class="date-wrapper Poppins card-subtitle">
+            <h4 class="date">June 24, 2022</h4>
+            <img class="img-dot date" src="images/Ellipse 1.png" />
+            <h4 class="date">DevOps</h4>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="imgc center" src="images/image 5.png" />
+          <h4 class="card-title center Poppins">
+            Build continuous integration pipelines with GitHub Actions
+          </h4>
+          <h4 class="card-subtitle center Poppins">
+            GitHub actions provide a really powerful way to integrate continuous
+            integration and delivery into your applications.
+          </h4>
+          <div class="date-wrapper Poppins card-subtitle">
+            <h4 class="date">June 24, 2022</h4>
+            <img class="img-dot date" src="images/Ellipse 1.png" />
+            <h4 class="date">DevOps</h4>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="imgc center" src="images/image 8.png" />
+          <h4 class="card-title center Poppins">
+            Build continuous integration pipelines with GitHub Actions
+          </h4>
+          <h4 class="card-subtitle center Poppins">
+            GitHub actions provide a really powerful way to integrate continuous
+            integration and delivery into your applications.
+          </h4>
+          <div class="date-wrapper Poppins card-subtitle">
+            <h4 class="date">June 24, 2022</h4>
+            <img class="img-dot date" src="images/Ellipse 1.png" />
+            <h4 class="date">DevOps</h4>
+          </div>
+        </div>
+      </div>
+      <!-- row ends -->
+
+      <!-- Cards row -->
+      <div class="card-row-wrapper">
+        <div class="card">
+          <img class="imgc center" src="images/image 3.png" />
+          <h4 class="card-title center Poppins">
+            Docker from Zero to Hero
+          </h4>
+          <h4 class="card-subtitle center Poppins">
+            GitHub actions provide a really powerful way to integrate continuous
+            integration and delivery into your applications.
+          </h4>
+          <div class="date-wrapper Poppins card-subtitle">
+            <h4 class="date">June 24, 2022</h4>
+            <img class="img-dot date" src="images/Ellipse 1.png" />
+            <h4 class="date">DevOps</h4>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="imgc center" src="images/image 6.png" />
+          <h4 class="card-title center Poppins">
+            Build continuous integration pipelines with GitHub Actions
+          </h4>
+          <h4 class="card-subtitle center Poppins">
+            GitHub actions provide a really powerful way to integrate continuous
+            integration and delivery into your applications.
+          </h4>
+          <div class="date-wrapper Poppins card-subtitle">
+            <h4 class="date">June 24, 2022</h4>
+            <img class="img-dot date" src="images/Ellipse 1.png" />
+            <h4 class="date">DevOps</h4>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="imgc center" src="images/image 9.png" />
+          <h4 class="card-title center Poppins">
+            Build continuous integration pipelines with GitHub Actions
+          </h4>
+          <h4 class="card-subtitle center Poppins">
+            GitHub actions provide a really powerful way to integrate continuous
+            integration and delivery into your applications.
+          </h4>
+          <div class="date-wrapper Poppins card-subtitle">
+            <h4 class="date">June 24, 2022</h4>
+            <img class="img-dot date" src="images/Ellipse 1.png" />
+            <h4 class="date">DevOps</h4>
+          </div>
+        </div>
+      </div>
+      <!-- row ends -->
+    </div>
+    <!-- Cards container ends -->
+    
+    <!-- Next pages section -->
+    <div class="next-pages">
+      <div class="pages-wrapper Recursive">
+        <div class="pages">Previous</div>
+        <div class="pages">1</div>
+        <div class="pages"><span id="border-2">2</span></div>
+        <div class="pages">3</div>
+        <div class="pages">4</div>
+        <div class="pages">5</div>
+        <div class="pages">Next</div>
+      </div>
+    </div>
+    <!-- Next pages section ends -->
+
+    <hr />
+    <!-- horizontal row(line) -->
+    
+    <!-- footer -->
+    <div class="footer outside">
+      <div class="footer-wrapper">
+        <div class="f-wrapper-1">
+          <h5 class="item-3 title Poppins">writings.dev</h5>
+          <div class="item-3 by">by @kamranahmedse</div>
+        </div>
+
+        <div class="f-wrapper-2 by by-1">
+          <img class="icon item-3" src="images/Vector.png" />
+          <div class="item-3">Follow @writingsdev</div>
+        </div>
+      </div>
+    </div>
+    <!-- footer ends -->
+    
+  </body>
 </html>

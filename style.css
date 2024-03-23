@@ -1,57 +1,231 @@
-body{
-background-color: #232830;
-color: white;
-font-family: "Poppins", sans-serif;
+body {
+  background-color: #232830;
+  color: white;
 }
 
-.outside{
-    margin: 30px 270px;
+.outside {
+  margin: 30px 270px;
 }
 
-.item-wrapper{
-    display: flex;
-    justify-content: end;
-    align-items: end;
+.title {
+  font-weight: 400;
 }
 
-.item{
-    margin-left: 10px;
-    margin-right: 10px;
+.item-wrapper {
+  display: flex;
+  justify-content: end;
+  align-items: end;
 }
 
-.nav{
-    display: flex;
-    justify-content: space-between;
+.item {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: 400;
 }
 
-.logo{
-    display: block;
-    width: 100px;
-    margin: 20px auto;
+.nav {
+  display: flex;
+  justify-content: space-between;
 }
 
-.Recursive{
-    font-family: "Recursive", sans-serif;
-    color:#FF7575;
+.logo {
+  display: block;
+  width: 100px;
+  margin: 20px auto;
 }
 
-.mid{
-    text-align: center;
+.Recursive {
+  font-family: "Recursive", sans-serif;
+  color: #ff7575;
+  font-weight: 400;
 }
 
-.Poppins{
-    font-family: "Poppins", sans-serif;
+.mid {
+  text-align: center;
 }
 
-.title-text{
-    display: block;
-    margin: 0px auto;
+.Poppins {
+  font-family: "Poppins", sans-serif;
 }
 
-hr{
-    color:#4D4D4D;
-    background-color: #4D4D4D;
-    height: 2px;
-    border-width: 0;
-    margin-top: 60px;
+.title-text {
+  display: block;
+  margin: 0px auto;
+}
+
+hr {
+  color: #4d4d4d;
+  background-color: #4d4d4d;
+  height: 1px;
+  border-width: 0;
+  margin-top: 50px;
+}
+
+.categories,
+.icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.categories-icons-wrapper {
+  display: flex;
+  align-items: last baseline;
+  justify-content: center;
+}
+
+.item-1 {
+  margin: 0px 3px;
+  width: 12px;
+  height: 12px;
+}
+
+.item-2 {
+  margin-left: 15px;
+  margin-right: 15px;
+  color: #909090;
+  margin-top: auto;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.cards-container {
+  margin: 30px 270px;
+  width: 800px;
+  height: 850px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+
+.card {
+  background-color: white;
+  height: 260px;
+  width: 240px;
+  border: 1px solid #252930;
+  border-radius: 15px;
+  justify-content: center;
+}
+
+.center {
+  display: block;
+  margin: 15px 15px 0px auto;
+}
+
+.imgc {
+  width: 210px;
+  margin: 15px;
+}
+
+.card-title {
+  color: #0f1217;
+  text-align: left;
+  font-size: 12px;
+  padding: 0px 15px;
+  font-weight: 700;
+}
+
+.card-subtitle {
+  color: #232830;
+  text-align: left;
+  font-size: 9px;
+  font-weight: 500;
+  padding: 0px 15px;
+}
+
+.date {
+  margin-left: 0px;
+  margin-right: 10px;
+  font-weight: 500;
+}
+
+.date-wrapper {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+
+.card {
+  margin: 20px 10px;
+}
+
+.card-row-wrapper {
+  display: block;
+  justify-content: start;
+  align-items: start;
+}
+
+.pages-wrapper {
+  display: flex;
+  align-items: last baseline;
+  justify-content: center;
+}
+
+.pages {
+  margin: 15px;
+  color: #909090;
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+#border-2 {
+  color: #ff7575;
+  padding: 10px 5px;
+  border-top: 2px solid #ff7575;
+}
+
+.by {
+  color: #ffffff;
+  border: 1px solid none;
+  background-color: #4699e0;
+  border-radius: 5px;
+  font-family: "Source Sans 3", sans-serif;
+  padding: 2px 8px;
+  width: 120px;
+  font-size: 13px;
+}
+
+.by-1 {
+  color: #ffffff;
+  border: 1px solid none;
+  background-color: #4699e0;
+  border-radius: 5px;
+  font-family: "Source Sans 3", sans-serif;
+  padding: 2px 2px;
+  width: 150px;
+  font-size: 13px;
+}
+
+.item-3 {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.f-wrapper-1 {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin-left: 20px;
+}
+
+.f-wrapper-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.icon {
+  width: 12px;
+}
+
+.img-dot {
+  margin-top: 17px;
+  width: 2px;
 }
